@@ -15,6 +15,8 @@ public class ExecutorChamadas {
         ConsumidorAPI consumidor = ConsumidorAPI.getInstance();
         
         consumidor.doLogin();
+        
+        
         System.out.println(consumidor.doRequest("/Linha/Buscar?termosBusca="+8000));
     }
     
